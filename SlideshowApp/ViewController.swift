@@ -44,13 +44,15 @@ class ViewController: UIViewController {
 
     // 画像がタップされた時のメソッド
     @IBAction func tapImage(_ sender: Any) {
+        // 再生中なら再生をストップ
+        playStopBtn(sender: n)
+        
         // segueを利用して画面遷移
         performSegue(withIdentifier: "tapSegue", sender: nil)
     }
     
     // 遷移先からsegueを利用して戻るメソッド
     @IBAction func unwind(segue: UIStoryboardSegue) {
-        print("戻る")
     }
     
     // タップした画像情報をsegueを利用して渡すメソッド
