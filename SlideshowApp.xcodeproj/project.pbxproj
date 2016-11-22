@@ -12,6 +12,10 @@
 		841DD21F1DE3258A00CAF122 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841DD21D1DE3258A00CAF122 /* Main.storyboard */; };
 		841DD2211DE3258A00CAF122 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 841DD2201DE3258A00CAF122 /* Assets.xcassets */; };
 		841DD2241DE3258A00CAF122 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841DD2221DE3258A00CAF122 /* LaunchScreen.storyboard */; };
+		841DD22C1DE3305D00CAF122 /* ExViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841DD22B1DE3305D00CAF122 /* ExViewController.swift */; };
+		841DD22E1DE333D100CAF122 /* IMG_9453.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 841DD22D1DE333D100CAF122 /* IMG_9453.JPG */; };
+		841DD2301DE333E200CAF122 /* IMG_8889.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 841DD22F1DE333E200CAF122 /* IMG_8889.JPG */; };
+		841DD2321DE334E600CAF122 /* FullSizeRender.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 841DD2311DE334E600CAF122 /* FullSizeRender.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		841DD2201DE3258A00CAF122 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		841DD2231DE3258A00CAF122 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		841DD2251DE3258A00CAF122 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		841DD22B1DE3305D00CAF122 /* ExViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExViewController.swift; sourceTree = "<group>"; };
+		841DD22D1DE333D100CAF122 /* IMG_9453.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_9453.JPG; sourceTree = "<group>"; };
+		841DD22F1DE333E200CAF122 /* IMG_8889.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_8889.JPG; sourceTree = "<group>"; };
+		841DD2311DE334E600CAF122 /* FullSizeRender.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FullSizeRender.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +62,13 @@
 		841DD2181DE3258A00CAF122 /* SlideshowApp */ = {
 			isa = PBXGroup;
 			children = (
+				841DD2311DE334E600CAF122 /* FullSizeRender.jpg */,
+				841DD22F1DE333E200CAF122 /* IMG_8889.JPG */,
+				841DD22D1DE333D100CAF122 /* IMG_9453.JPG */,
 				841DD2191DE3258A00CAF122 /* AppDelegate.swift */,
 				841DD21B1DE3258A00CAF122 /* ViewController.swift */,
 				841DD21D1DE3258A00CAF122 /* Main.storyboard */,
+				841DD22B1DE3305D00CAF122 /* ExViewController.swift */,
 				841DD2201DE3258A00CAF122 /* Assets.xcassets */,
 				841DD2221DE3258A00CAF122 /* LaunchScreen.storyboard */,
 				841DD2251DE3258A00CAF122 /* Info.plist */,
@@ -124,6 +136,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				841DD22E1DE333D100CAF122 /* IMG_9453.JPG in Resources */,
+				841DD2321DE334E600CAF122 /* FullSizeRender.jpg in Resources */,
+				841DD2301DE333E200CAF122 /* IMG_8889.JPG in Resources */,
 				841DD2241DE3258A00CAF122 /* LaunchScreen.storyboard in Resources */,
 				841DD2211DE3258A00CAF122 /* Assets.xcassets in Resources */,
 				841DD21F1DE3258A00CAF122 /* Main.storyboard in Resources */,
@@ -139,6 +154,7 @@
 			files = (
 				841DD21C1DE3258A00CAF122 /* ViewController.swift in Sources */,
 				841DD21A1DE3258A00CAF122 /* AppDelegate.swift in Sources */,
+				841DD22C1DE3305D00CAF122 /* ExViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +277,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = K9D6C8H335;
 				INFOPLIST_FILE = SlideshowApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.segayan3.SlideshowApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -274,6 +291,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = K9D6C8H335;
 				INFOPLIST_FILE = SlideshowApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.segayan3.SlideshowApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
